@@ -1,0 +1,10 @@
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\bin\Debug\Tablero de tenis.exe.config
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\bin\Debug\Tablero de tenis.exe
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\bin\Debug\Tablero de tenis.pdb
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\obj\Debug\Tablero de tenis.csprojAssemblyReference.cache
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\obj\Debug\Tablero_de_tenis.Form1.resources
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\obj\Debug\Tablero_de_tenis.Properties.Resources.resources
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\obj\Debug\Tablero de tenis.csproj.GenerateResource.cache
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\obj\Debug\Tablero de tenis.csproj.CoreCompileInputs.cache
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\obj\Debug\Tablero de tenis.exe
+C:\Users\lgera\Documents\UAD\Arquitectura de software\Tablero de tenis\Tablero de tenis\obj\Debug\Tablero de tenis.pdb
