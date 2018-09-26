@@ -48,141 +48,178 @@
             // LabelSet
             // 
             this.LabelSet.AutoSize = true;
-            this.LabelSet.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelSet.Location = new System.Drawing.Point(69, 24);
+            this.LabelSet.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelSet.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.LabelSet.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LabelSet.Location = new System.Drawing.Point(100, 30);
+            this.LabelSet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelSet.Name = "LabelSet";
-            this.LabelSet.Size = new System.Drawing.Size(64, 37);
+            this.LabelSet.Size = new System.Drawing.Size(55, 31);
             this.LabelSet.TabIndex = 6;
             this.LabelSet.Text = "Set";
-            this.LabelSet.Click += new System.EventHandler(this.label1_Click);
             // 
             // LabelJuego
             // 
             this.LabelJuego.AutoSize = true;
-            this.LabelJuego.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelJuego.Location = new System.Drawing.Point(150, 24);
+            this.LabelJuego.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelJuego.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.LabelJuego.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LabelJuego.Location = new System.Drawing.Point(205, 30);
+            this.LabelJuego.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelJuego.Name = "LabelJuego";
-            this.LabelJuego.Size = new System.Drawing.Size(104, 37);
+            this.LabelJuego.Size = new System.Drawing.Size(88, 31);
             this.LabelJuego.TabIndex = 7;
             this.LabelJuego.Text = "Juego";
             // 
             // LabelScore
             // 
             this.LabelScore.AutoSize = true;
-            this.LabelScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelScore.Location = new System.Drawing.Point(260, 24);
+            this.LabelScore.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.LabelScore.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LabelScore.Location = new System.Drawing.Point(358, 30);
+            this.LabelScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelScore.Name = "LabelScore";
-            this.LabelScore.Size = new System.Drawing.Size(100, 37);
+            this.LabelScore.Size = new System.Drawing.Size(85, 31);
             this.LabelScore.TabIndex = 8;
             this.LabelScore.Text = "Score";
             // 
             // LebelA
             // 
             this.LebelA.AutoSize = true;
+            this.LebelA.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LebelA.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LebelA.Location = new System.Drawing.Point(12, 74);
+            this.LebelA.ForeColor = System.Drawing.Color.Lime;
+            this.LebelA.Location = new System.Drawing.Point(19, 84);
+            this.LebelA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LebelA.Name = "LebelA";
-            this.LebelA.Size = new System.Drawing.Size(39, 37);
+            this.LebelA.Size = new System.Drawing.Size(47, 46);
             this.LebelA.TabIndex = 10;
             this.LebelA.Text = "A";
             // 
             // LabelB
             // 
             this.LabelB.AutoSize = true;
+            this.LabelB.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LabelB.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelB.Location = new System.Drawing.Point(13, 120);
+            this.LabelB.ForeColor = System.Drawing.Color.Red;
+            this.LabelB.Location = new System.Drawing.Point(19, 141);
+            this.LabelB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelB.Name = "LabelB";
-            this.LabelB.Size = new System.Drawing.Size(38, 37);
+            this.LabelB.Size = new System.Drawing.Size(47, 46);
             this.LabelB.TabIndex = 11;
             this.LabelB.Text = "B";
-            this.LabelB.Click += new System.EventHandler(this.label6_Click);
             // 
             // LabelSetsA
             // 
             this.LabelSetsA.AutoSize = true;
-            this.LabelSetsA.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelSetsA.Location = new System.Drawing.Point(89, 74);
+            this.LabelSetsA.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelSetsA.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelSetsA.ForeColor = System.Drawing.Color.Lime;
+            this.LabelSetsA.Location = new System.Drawing.Point(107, 84);
+            this.LabelSetsA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelSetsA.Name = "LabelSetsA";
-            this.LabelSetsA.Size = new System.Drawing.Size(34, 40);
+            this.LabelSetsA.Size = new System.Drawing.Size(42, 46);
             this.LabelSetsA.TabIndex = 12;
             this.LabelSetsA.Text = "0";
             // 
             // LabelSetsB
             // 
             this.LabelSetsB.AutoSize = true;
-            this.LabelSetsB.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelSetsB.Location = new System.Drawing.Point(89, 122);
+            this.LabelSetsB.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelSetsB.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelSetsB.ForeColor = System.Drawing.Color.Red;
+            this.LabelSetsB.Location = new System.Drawing.Point(107, 141);
+            this.LabelSetsB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelSetsB.Name = "LabelSetsB";
-            this.LabelSetsB.Size = new System.Drawing.Size(34, 40);
+            this.LabelSetsB.Size = new System.Drawing.Size(42, 46);
             this.LabelSetsB.TabIndex = 13;
             this.LabelSetsB.Text = "0";
             // 
             // LabelJuegosA
             // 
             this.LabelJuegosA.AutoSize = true;
-            this.LabelJuegosA.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelJuegosA.Location = new System.Drawing.Point(181, 74);
+            this.LabelJuegosA.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelJuegosA.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelJuegosA.ForeColor = System.Drawing.Color.Lime;
+            this.LabelJuegosA.Location = new System.Drawing.Point(228, 84);
+            this.LabelJuegosA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelJuegosA.Name = "LabelJuegosA";
-            this.LabelJuegosA.Size = new System.Drawing.Size(34, 40);
+            this.LabelJuegosA.Size = new System.Drawing.Size(42, 46);
             this.LabelJuegosA.TabIndex = 14;
             this.LabelJuegosA.Text = "0";
             // 
             // LabelJuegosB
             // 
             this.LabelJuegosB.AutoSize = true;
-            this.LabelJuegosB.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelJuegosB.Location = new System.Drawing.Point(181, 120);
+            this.LabelJuegosB.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelJuegosB.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelJuegosB.ForeColor = System.Drawing.Color.Red;
+            this.LabelJuegosB.Location = new System.Drawing.Point(228, 141);
+            this.LabelJuegosB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelJuegosB.Name = "LabelJuegosB";
-            this.LabelJuegosB.Size = new System.Drawing.Size(34, 40);
+            this.LabelJuegosB.Size = new System.Drawing.Size(42, 46);
             this.LabelJuegosB.TabIndex = 15;
             this.LabelJuegosB.Text = "0";
             // 
             // LabelScoreA
             // 
             this.LabelScoreA.AutoSize = true;
-            this.LabelScoreA.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelScoreA.Location = new System.Drawing.Point(298, 74);
+            this.LabelScoreA.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelScoreA.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelScoreA.ForeColor = System.Drawing.Color.Lime;
+            this.LabelScoreA.Location = new System.Drawing.Point(382, 84);
+            this.LabelScoreA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelScoreA.Name = "LabelScoreA";
-            this.LabelScoreA.Size = new System.Drawing.Size(34, 40);
+            this.LabelScoreA.Size = new System.Drawing.Size(42, 46);
             this.LabelScoreA.TabIndex = 18;
             this.LabelScoreA.Text = "0";
             // 
             // LabelScoreB
             // 
             this.LabelScoreB.AutoSize = true;
-            this.LabelScoreB.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelScoreB.Location = new System.Drawing.Point(298, 120);
+            this.LabelScoreB.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LabelScoreB.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelScoreB.ForeColor = System.Drawing.Color.Red;
+            this.LabelScoreB.Location = new System.Drawing.Point(382, 141);
+            this.LabelScoreB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelScoreB.Name = "LabelScoreB";
-            this.LabelScoreB.Size = new System.Drawing.Size(34, 40);
+            this.LabelScoreB.Size = new System.Drawing.Size(42, 46);
             this.LabelScoreB.TabIndex = 19;
             this.LabelScoreB.Text = "0";
             // 
             // CheckBoxA
             // 
+            this.CheckBoxA.AutoCheck = false;
             this.CheckBoxA.AutoSize = true;
+            this.CheckBoxA.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CheckBoxA.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckBoxA.Location = new System.Drawing.Point(267, 86);
+            this.CheckBoxA.Location = new System.Drawing.Point(333, 100);
+            this.CheckBoxA.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBoxA.Name = "CheckBoxA";
-            this.CheckBoxA.Size = new System.Drawing.Size(15, 14);
+            this.CheckBoxA.Size = new System.Drawing.Size(18, 17);
             this.CheckBoxA.TabIndex = 20;
-            this.CheckBoxA.UseVisualStyleBackColor = true;
+            this.CheckBoxA.UseVisualStyleBackColor = false;
             // 
             // CheckBoxB
             // 
+            this.CheckBoxB.AutoCheck = false;
             this.CheckBoxB.AutoSize = true;
-            this.CheckBoxB.Location = new System.Drawing.Point(267, 122);
+            this.CheckBoxB.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.CheckBoxB.Location = new System.Drawing.Point(333, 155);
+            this.CheckBoxB.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBoxB.Name = "CheckBoxB";
-            this.CheckBoxB.Size = new System.Drawing.Size(15, 14);
+            this.CheckBoxB.Size = new System.Drawing.Size(18, 17);
             this.CheckBoxB.TabIndex = 21;
-            this.CheckBoxB.UseVisualStyleBackColor = true;
-            this.CheckBoxB.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.CheckBoxB.UseVisualStyleBackColor = false;
             // 
             // ButtonPuntoB
             // 
             this.ButtonPuntoB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonPuntoB.Location = new System.Drawing.Point(188, 163);
+            this.ButtonPuntoB.Location = new System.Drawing.Point(251, 201);
+            this.ButtonPuntoB.Margin = new System.Windows.Forms.Padding(4);
             this.ButtonPuntoB.Name = "ButtonPuntoB";
-            this.ButtonPuntoB.Size = new System.Drawing.Size(162, 36);
+            this.ButtonPuntoB.Size = new System.Drawing.Size(216, 44);
             this.ButtonPuntoB.TabIndex = 22;
             this.ButtonPuntoB.Text = "Punto B";
             this.ButtonPuntoB.UseVisualStyleBackColor = true;
@@ -191,9 +228,10 @@
             // ButtonPuntoA
             // 
             this.ButtonPuntoA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonPuntoA.Location = new System.Drawing.Point(20, 163);
+            this.ButtonPuntoA.Location = new System.Drawing.Point(27, 201);
+            this.ButtonPuntoA.Margin = new System.Windows.Forms.Padding(4);
             this.ButtonPuntoA.Name = "ButtonPuntoA";
-            this.ButtonPuntoA.Size = new System.Drawing.Size(162, 36);
+            this.ButtonPuntoA.Size = new System.Drawing.Size(216, 44);
             this.ButtonPuntoA.TabIndex = 23;
             this.ButtonPuntoA.Text = "Punto A";
             this.ButtonPuntoA.UseVisualStyleBackColor = true;
@@ -201,9 +239,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 205);
+            this.ClientSize = new System.Drawing.Size(483, 252);
             this.Controls.Add(this.ButtonPuntoA);
             this.Controls.Add(this.ButtonPuntoB);
             this.Controls.Add(this.CheckBoxB);
@@ -219,8 +257,9 @@
             this.Controls.Add(this.LabelScore);
             this.Controls.Add(this.LabelJuego);
             this.Controls.Add(this.LabelSet);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Marcador de Tenis";
             this.ResumeLayout(false);
             this.PerformLayout();
 
